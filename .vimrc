@@ -14,7 +14,7 @@ set cursorline      " underline cursor line
 hi CursorLine cterm=NONE ctermbg=236 guibg=#3c3836
 
 set relativenumber  " line numbers relative to cursor 
-" apply stile to relativenumbers
+" apply style to relativenumbers
 hi LineNr cterm=NONE 
 hi CursorLineNr cterm=NONE ctermbg=236 
 
