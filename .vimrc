@@ -21,7 +21,6 @@ hi CursorLineNr cterm=NONE ctermbg=236
 " visualize tabs
 set list
 set listchars=tab:\¦\ 
-
 set noexpandtab     " real tab characters, not spaces
 set tabstop=4       " tab counts as 4 spaces visually
 set shiftwidth=4    " >> and << shift by 4 (same as tabstop)
@@ -32,3 +31,10 @@ set shiftwidth=4    " >> and << shift by 4 (same as tabstop)
 inoremap ( ()<Left>
 inoremap [ []<Left>
 inoremap { {}<Left>
+set showmatch       " show matching bracket
+
+" -----------------------
+" Search
+" -----------------------
+set hlsearch        " highlight during search
+set ignorecase      " ignore case on search
