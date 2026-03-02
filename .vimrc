@@ -4,7 +4,6 @@
 syntax on           " syntax highlighting
 set nocompatible    " dissable vi compatibility
 set ruler           " show position at bottom
-set mouse=a         " mouse support
 
 " -----------------------
 " Appearance
