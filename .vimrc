@@ -4,6 +4,7 @@
 syntax on           " syntax highlighting
 set nocompatible    " dissable vi compatibility
 set ruler           " show position at bottom
+set scrolloff=15
 
 " -----------------------
 " Appearance
